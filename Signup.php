@@ -112,6 +112,10 @@ try {
                         <form action='edit.php' method='post'>
                             <input type='hidden' name='edit_id' value='{$row['user_id']}'>
                             <button type='submit' class='edit-button'>Edit</button>
+                            
+                        </form>
+                        <form action='delete.php' method='post'>
+                            <input type='hidden' name='edit_id' value='{$row['user_id']}'>
                             <button type='submit' class='edit-button' style='background-color: red;'>Delete</button>
                         </form>
                     </td>
