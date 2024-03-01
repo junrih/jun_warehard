@@ -17,6 +17,6 @@
   <a href="index.php">Home</a>
   <a href="about.php">About Us</a>
   <a href="cont.php">Contact Us</a>
-  <a href="login.php" class="right">Login</a>
-  
+  <a href="login.php" class="right">Log-in</a>
+  <a href="signup.php" class="right">Sign-up</a>
 </div>
