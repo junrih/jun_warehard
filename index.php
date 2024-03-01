@@ -3,7 +3,7 @@
 
 
 ?>
-
+<!-- akoa rani -->
 <div class="row">
   <div class="side">
     <h2>About Me</h2>
