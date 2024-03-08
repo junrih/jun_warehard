@@ -139,19 +139,19 @@ section .signin .content .form .inputBox i
   font-size: 0.8em;
   color: #fff;
 }
-.signin .content .form .links 
+.signin .content .form .links .signup
 {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.signin .content .form .links a 
+.signin .content .form .links a .signup
 {
   color: #fff;
   text-decoration: none;
 }
-.signin .content .form .links a:nth-child(2)
+.signin .content .form .links a:nth-child(2) .signup
 {
   color: #0f0;
   font-weight: 600;
@@ -213,7 +213,8 @@ input[type="submit"]:active
 
     </div> 
 
-    <div class="links"> <a href="#">Forgot Password</a> <a href="#">Signup</a> 
+    <div class="links"> <a href="#">Forgot Password</a>
+    <a href="Signup.php"><button class="signup">Sign up</button> </a> 
 
     </div> 
 

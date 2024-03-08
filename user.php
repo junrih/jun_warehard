@@ -1,4 +1,3 @@
-signup.txt
 
 <!DOCTYPE HTML>
 <html lang="en">
@@ -90,7 +89,7 @@ try {
     $conn = connectDB();
 
     if ($conn) {
-        $sql = "SELECT user_id, name, email FROM users";
+        $sql = "SELECT * FROM `user`";
         $stmt = $conn->prepare($sql);
         $stmt->execute();
 

@@ -1,4 +1,4 @@
-insertion.txt
+
 <?php
 include 'db_connection.php';
 
